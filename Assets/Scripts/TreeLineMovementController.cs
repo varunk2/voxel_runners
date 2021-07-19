@@ -18,7 +18,6 @@ public class TreeLineMovementController : MonoBehaviour
         }
 
         if (transform.position.z < _disappearPoint.position.z) {
-            Debug.Log("Reposition point: " + transform.position.z);
             transform.position += new Vector3(0f, 0f, _boxCollider.bounds.size.z * 2f);
         }
     }

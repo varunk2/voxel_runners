@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3526242371474169508}
   - component: {fileID: 446948145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PathTile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,9 +51,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3526242371474169508}
     m_Modifications:
+    - target: {fileID: 174516, guid: fa76f1c8ce0b746c39975362a0795b9c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 174518, guid: fa76f1c8ce0b746c39975362a0795b9c, type: 3}
       propertyPath: m_Name
       value: env_crete1c
+      objectReference: {fileID: 0}
+    - target: {fileID: 174518, guid: fa76f1c8ce0b746c39975362a0795b9c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 474518, guid: fa76f1c8ce0b746c39975362a0795b9c, type: 3}
       propertyPath: m_RootOrder
