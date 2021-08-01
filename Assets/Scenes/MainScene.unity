@@ -12277,6 +12277,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   onGround: 0
+  animator: {fileID: 564044979}
 --- !u!95 &564044979
 Animator:
   serializedVersion: 3
@@ -14623,8 +14624,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5416541, y: 0.9352598, z: 0.41483757}
-  m_Center: {x: 0.0037873983, y: 0.4676299, z: 0.018177405}
+  m_Size: {x: 0.7911643, y: 0.9352598, z: 0.41483757}
+  m_Center: {x: -0.0041785836, y: 0.4676299, z: 0.018177405}
 --- !u!1001 &646734722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41940,7 +41941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44eff86cfe216da41b2ebd3b3a179e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canMove: 1
+  canMove: 0
   worldSpeed: 10
 --- !u!4 &2120503572
 Transform:

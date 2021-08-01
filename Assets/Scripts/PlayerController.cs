@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
     public bool onGround;
 
+    public Animator animator;
+
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -32,6 +34,10 @@ public class PlayerController : MonoBehaviour
                 }                
             }
         }
+
+        // Control Animations
+        animator.SetBool("walking", _gameManager.canMove);
+        animator.SetBool("onGround", onGround);
     }
 
     public void OnTriggerEnter(Collider other) {
